@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #feece0;
+    overflow: hidden;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.top h1 {
+    font-size: 72px;
+    color: #58190a;
+}
+
+.top p {
+    font-size: 38px;
+    color: #58190a;
+}
