@@ -54,3 +54,32 @@ button {
     border: none;
     cursor: pointer;
 }
+
+.bottom {
+    display: flex;
+    background-color: #9b6647;
+    height: 100vh;
+    justify-content: center;
+    gap: 64px;
+    padding: 64px 50px;
+    color: #feece0;
+}
+
+ul, ol {
+    padding-left: 28px;
+}
+
+li {
+    font-size: 28px;
+}
+
+.col1 > div, .col2 > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.col1 h1, .col2 h1 {
+    font-size: 38px;
+}
