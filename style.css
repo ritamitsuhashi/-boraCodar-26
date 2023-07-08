@@ -70,9 +70,10 @@ ul, ol {
     padding-left: 28px;
 }
 
-li {
+li, span {
     font-size: 28px;
     font-family: 'Source Sans 3', sans-serif;
+    color: #feece0;
 }
 
 .col1 > div, .col2 > div {
