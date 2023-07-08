@@ -1,88 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: #feece0;
-    overflow: hidden;
-    font-family: 'Source Serif 4', serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #feece0;
+  font-family: "Source Serif 4", serif;
 }
 
 .top {
-    display: flex;
-    align-items: center;
-    gap: 56px;
-    justify-content: center;
-    margin: 112px 180px 56px 180px;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  justify-content: center;
+  margin: 112px 180px 56px 180px;
 }
 
 picture img {
-    width: 409px;
-    height: 293px;
+  width: 409px;
+  height: 293px;
 }
 
 .top h1 {
-    font-size: 72px;
-    color: #58190a;
+  font-size: 72px;
+  color: #58190a;
 }
 
 .top p {
-    font-size: 38px;
-    color: #58190a;
+  font-size: 38px;
+  color: #58190a;
 }
 
 .info p {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 .buttons {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.buttons, span, .buttons p {
-    font-size: 35px;
-    color: #9b6647;
+.buttons,
+span,
+.buttons p {
+  font-size: 35px;
+  color: #9b6647;
 }
 
 button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .bottom {
-    display: flex;
-    background-color: #9b6647;
-    height: 100vh;
-    justify-content: center;
-    gap: 64px;
-    padding: 64px 50px;
-    color: #feece0;
+  display: flex;
+  background-color: #9b6647;
+  justify-content: center;
+  gap: 64px;
+  padding: 64px 50px;
+  color: #feece0;
 }
 
-ul, ol {
-    padding-left: 28px;
+ul,
+ol {
+  padding-left: 28px;
 }
 
-li, span {
-    font-size: 28px;
-    font-family: 'Source Sans 3', sans-serif;
-    color: #feece0;
+li,
+span {
+  font-size: 28px;
+  font-family: "Source Sans 3", sans-serif;
+  color: #feece0;
 }
 
-.col1 > div, .col2 > div {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 35px;
+.col1 > div,
+.col2 > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 35px;
 }
 
-.col1 h1, .col2 h1 {
-    font-size: 38px;
+.col1 h1,
+.col2 h1 {
+  font-size: 38px;
 }
